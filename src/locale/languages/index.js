@@ -14,3 +14,4 @@ export * from './zh-cn.js';
 export * from './zh-tw.js';
 export * from './uk.js';
 export * from './eu.js';
+export * from './ja.js';
