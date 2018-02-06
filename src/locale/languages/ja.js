@@ -4,12 +4,12 @@
 export const en = {
     auth: {
       login: {
-        connectingToGitHub: 'Connecting to GitHub...',
-        preparingGitPoint: 'Preparing GitPoint...',
-        cancel: 'CANCEL',
-        welcomeTitle: 'Welcome to GitPoint',
-        welcomeMessage: 'The most feature-rich GitHub client that is 100% free',
-        notificationsTitle: 'Control notifications',
+        connectingToGitHub: 'GitHubに接続中...',
+        preparingGitPoint: 'GitPointの準備中...',
+        cancel: 'キャンセル',
+        welcomeTitle: 'GitPointにようこそ',
+        welcomeMessage: '最も豊富な機能を備えた完全フリーのGitHubクライアントです',
+        notificationsTitle: '通知設定',
         notificationsMessage:
           'View and control all of your unread and participating notifications',
         reposTitle: 'Repositories and Users',
@@ -18,14 +18,14 @@ export const en = {
         issuesTitle: 'Issues and Pull Requests',
         issuesMessage:
           'Communicate on conversations, merge pull requests and more',
-        signInButton: 'SIGN IN',
+        signInButton: 'サインイン',
       },
       welcome: {
-        welcomeTitle: 'Welcome to GitPoint',
+        welcomeTitle: 'GitPointにようこそ',
       },
       events: {
         welcomeMessage:
-          "Welcome! This is your news feed - it'll help you keep up with recent activity on repositories you watch and people you follow.",
+          "ようこそ! これはニュースフィードです - フォロー中のリポジトリや人の最近の活動が確認できます",
         commitCommentEvent: 'commented on commit',
         createEvent: 'created {{object}}',
         deleteEvent: 'deleted {{object}}',
@@ -93,14 +93,14 @@ export const en = {
       },
       userOptions: {
         donate: 'Make a donation',
-        title: 'Options',
-        language: 'Language',
-        privacyPolicy: 'Privacy Policy',
-        signOut: 'Sign Out',
+        title: 'オプション',
+        language: '言語',
+        privacyPolicy: 'プライバシーポリシー',
+        signOut: 'サインアウト',
       },
       privacyPolicy: {
-        title: 'Privacy Policy',
-        effectiveDate: 'Last updated: July 15, 2017',
+        title: 'プライバシーポリシー',
+        effectiveDate: '最終更新:2017年07月15日',
         introduction:
           "We're glad you decided to use GitPoint. This Privacy Policy is here to inform you about what we do — and do not do — with our user's data.",
         userDataTitle: 'USER DATA',
@@ -118,7 +118,7 @@ export const en = {
           'GitPoint is open source and the history of contributions to the platform will always be visible to the public.',
         openSource2:
           'With each contribution to the app, code review is always performed to prevent anybody from including malicious code of any kind.',
-        contactTitle: 'CONTACT',
+        contactTitle: '連絡先',
         contact1:
           'Thank you for reading our Privacy Policy. We hope you enjoy using GitPoint as much as we enjoyed building it.',
         contact2:
@@ -128,8 +128,8 @@ export const en = {
     },
     notifications: {
       main: {
-        unread: 'unread',
-        participating: 'participating',
+        unread: '未読',
+        participating: '',
         all: 'all',
         unreadButton: 'Unread',
         participatingButton: 'Participating',
