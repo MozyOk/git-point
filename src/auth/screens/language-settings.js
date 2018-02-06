@@ -79,4 +79,9 @@ export default [
     emojiCode: ':waving_white_flag:',
     name: 'Basque',
   },
+  {
+    code: 'ja',
+    emojiCode: ':flag-jp:',
+    name: '日本語',
+  },
 ];
