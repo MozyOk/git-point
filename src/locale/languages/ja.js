@@ -14,7 +14,7 @@ export const en = {
       notificationsMessage: '未読通知と参加通知の設定',
       reposTitle: 'リポジトリとユーザー',
       reposMessage: 'リポジトリ、ユーザ、組織の情報を簡単に取得できます',
-      issuesTitle: 'イシュー と プルリクエスト',
+      issuesTitle: 'イシューとプルリクエスト',
       issuesMessage:
         '会話でのコミュニケーション、プルリクエストのマージなどができます',
       signInButton: 'サインイン',
@@ -24,17 +24,17 @@ export const en = {
     },
     events: {
       welcomeMessage:
-        'ようこそ! これはニュースフィードです - フォロー中のリポジトリやユーザーの最近の活動が確認できます',
+        'ようこそ!これはニュースフィードです。フォロー中のリポジトリやユーザーの最近の活動が確認できます',
       commitCommentEvent: 'コミットにコメント',
       createEvent: '{{object}} を作成',
       deleteEvent: '{{object}} を削除',
-      issueCommentEvent: '{{action}} on {{type}}',
-      issueEditedEvent: '{{action}} their comment on {{type}}',
-      issueRemovedEvent: '{{action}} their comment on {{type}}',
+      issueCommentEvent: '{{action}} の {{type}}',
+      issueEditedEvent: '？{{action}} に対する彼らのコメント {{type}}',
+      issueRemovedEvent: '？{{action}} に対する彼らのコメント {{type}}',
       issuesEvent: '{{action}} イシュー',
       publicEvent: {
-        action: 'made',
-        connector: 'public',
+        action: '作成',
+        connector: '公開',
       },
       pullRequestEvent: '{{action}} プルリクエスト',
       pullRequestReviewEvent: '{{action}} プルリクエストレビュー',
@@ -43,8 +43,8 @@ export const en = {
       pullRequestReviewDeletedEvent:
         '{{action}} プルリクエストに関するコメント',
       releaseEvent: '{{action}} リリース',
-      atConnector: 'at',
-      toConnector: 'at',
+      atConnector: '繋ぐ',
+      toConnector: '繋ぐ',
       types: {
         pullRequest: 'プルリクエスト',
         issue: 'イシュー',
@@ -84,8 +84,7 @@ export const en = {
     },
     profile: {
       orgsRequestApprovalTop: '全ての組織を確認できませんか?',
-      orgsRequestApprovalBottom:
-        'あなたはそれらの承認を要求しなければならないかもしれません',
+      orgsRequestApprovalBottom: '承認を要求しなければならないかもしれません',
       codePushCheck: 'アップデートを確認',
       codePushChecking: 'アップデートの確認中...',
       codePushUpdated: 'アプリは最新です',
@@ -108,10 +107,10 @@ export const en = {
       userData1:
         'あなたのGitHubの情報はログイン以外には何にも使われません。ユーザーのログインが許可されると、ユーザーのOAuthトークンはクライアントデバイスのストレージに直接保存されます。私たちはユーザーのアクセストークンを見ることや、保存することも決していたしません。',
       userData2:
-        'つまり、ユーザーのGitHubの情報を表示、使用、共有することは決してありません。もし、プライベートデータが見えるようになった場合は、私たちはそれを記録したり表示したりしません。 誤って録音された場合は、安全な消去方法を使用し，すぐに削除いたします。 繰り返しますが、これが決して起こらないように、認証を具体的に設定しています。',
+        'つまり、ユーザーのGitHubの認証情報を表示、使用、共有することは決してありません。もし、プライベートデータが見えるようになった場合は、私たちはそれを記録したり表示したりしません。 誤って記録された場合は、安全な消去方法を使用し，すぐに削除いたします。 繰り返しますが、これが決して起こらないように、認証を具体的に設定しています。',
       analyticsInfoTitle: '分析情報',
       analyticsInfo1:
-        '私たちはGitPointのトラフィックと使用状況の傾向を測定するために,GoogleアナリティクスとiTunesのApp Analyticsを使用しています。これらのツールは、デバイスとプラットフォームのバージョン、地域、および参照元など、デバイスから送信された情報を収集します。 この情報から、特定の個々のユーザーを識別するために使用することはせず、個人情報は抽出しません。',
+        '私たちはGitPointのトラフィックと使用状況の傾向を測定するために,GoogleアナリティクスとiTunesのApp Analyticsを使用しています。これらのツールは、デバイスとプラットフォームのバージョン、地域、および参照元など、デバイスから送信された情報を収集します。 この情報から、特定の個々のユーザーを識別するために使用することはなく、個人情報は抽出されません。',
       analyticsInfo2:
         'もし、スタックトレース、エラーログまたはその他の分析情報を収集するために別のサードパーティプラットフォームを使用する場合、それらのユーザーデータが匿名化され、暗号化されていることを確認します。',
       openSourceTitle: 'オープンソース',
